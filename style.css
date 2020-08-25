@@ -2,13 +2,17 @@
     margin:0;
     padding:0;
 } */
+body{
+    background-color: darkgray
+    ;
+}
 .container{
     text-align: center;
 
 }
 .calculator{
     display: inline-block;
-    background-color:#ff9597;
+    background-color:#0c0b0b;
     padding:23px;
     
 
@@ -18,22 +22,29 @@
 input{
     font-size:29px;
     margin:2px 2px 0 0;
-    border:2px solid black;
-    border-radius: 10px;
+    border:none;
+    /* border-radius: none; */
     margin-bottom: 2px;
+    background-color: #0c0b0b;
+    color:white;
+    
 }
 button{
     width: 90px;
     height: 56px;
-    border-radius: 9px;
-    
-    background-color: rgb(18, 19, 18);
+    /* border-radius: 9px; */
+    border:none;
+    background-color: #0c0b0b;
     font-size: 30px;
     color: white;
-
+    cursor: pointer;
 
 }
 #equal{
     width:100%;
-    border-radius: 17px;
+    /* border-radius: 17px; */
+    background-color: darkred;
+}
+.operators{
+    background-color: rgb(85, 55, 21);
 }
