@@ -1,8 +1,39 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
 .container{
     text-align: center;
+
 }
 .calculator{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    background-color:#ff9597;
+    padding:23px;
+    
+
+   border-radius: 17px;
+
+}
+input{
+    font-size:29px;
+    margin:2px 2px 0 0;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+button{
+    width: 90px;
+    height: 56px;
+    border-radius: 9px;
+    
+    background-color: rgb(18, 19, 18);
+    font-size: 30px;
+    color: white;
+
+
+}
+#equal{
+    width:100%;
+    border-radius: 17px;
 }

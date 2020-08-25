@@ -35,6 +35,7 @@ for (items of buttons) {
            screen.value=screenValue;
        
          }
+         
         else{
             screenValue += buttonValue;
             screen.value = screenValue;
